@@ -2,7 +2,7 @@ import streamlit as st
 from camel_agents.subject_classifier import classify_subject
 from camel_agents.subject_agents import get_agent_by_subject
 
-
+# CONFIG
 st.set_page_config(
     page_title="AI Tutor (Camel + Mistral)",
     layout="centered",
@@ -10,7 +10,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-
+# CSS PART
 st.markdown("""
     <style>
         .stTextInput input {
